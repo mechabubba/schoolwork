@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="WordGameClientController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/resources/notebookBackroundLobby.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="250.0" layoutX="175.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/resources/scoreboardPodium.png" />
+         </image></ImageView>
+      <Label fx:id="firstLabel" layoutX="280.0" layoutY="170.0" text="First" />
+      <Label fx:id="secondLabel" layoutX="352.0" layoutY="214.0" text="Second" />
+      <Label fx:id="thirdLabel" layoutX="197.0" layoutY="252.0" text="Third" />
+      <TextArea layoutX="23.0" layoutY="33.0" prefHeight="94.0" prefWidth="200.0" />
+      <TextArea layoutX="369.0" layoutY="33.0" prefHeight="94.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
